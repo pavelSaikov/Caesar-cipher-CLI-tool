@@ -1,0 +1,32 @@
+{
+  "name": "my_caesar_cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavelSaikov/caesar-cipher-cli-tool.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavelSaikov/caesar-cipher-cli-tool/issues"
+  },
+  "homepage": "https://github.com/pavelSaikov/caesar-cipher-cli-tool#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.1.0"
+  },
+  "bin": {
+    "my_caesar_cli": "./src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  }
+}
